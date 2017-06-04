@@ -1,6 +1,7 @@
 ﻿body {
     position: relative;
     font-family: 'Raleway', sans-serif;
+    font-size: 18px;
     /*padding-top: 110px;*/
 }
 
@@ -17,7 +18,7 @@ h1, h2, h3 {
     padding: 10px 15px;
     -webkit-transition: all 0.5s;
     transition: all 0.5s;
-    background: rgba(255, 255, 255, 0.3);
+    background: rgba(105, 105, 105, 0.7);
 }
 
 .navbar-default {
@@ -27,6 +28,7 @@ h1, h2, h3 {
 
 .navbar-default .navbar-nav > li > a {
     color: white;
+    border-radius: 25px;
 }
 
 
@@ -53,7 +55,7 @@ h1, h2, h3 {
 }
 
         .navbar-default .navbar-nav > li > a {
-            font-size: 2.0em;
+            font-size: 1.5em;
         }
 
     .dropdown-toggle {
@@ -82,7 +84,7 @@ h1, h2, h3 {
 
 .fill-screen {
     background-size: cover;
-    background-position: center;
+    background-position: center top;
 }
 
 .title-row {
