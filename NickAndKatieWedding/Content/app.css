@@ -24,6 +24,7 @@ h1, h2, h3 {
     border: none;
 }
 
+
 .navbar-default .navbar-nav > li > a {
     color: white;
 }
@@ -47,6 +48,10 @@ h1, h2, h3 {
         border: none;
     }
 
+    .navbar-collapse {
+    background: rgba(105, 105, 105, 0.7);
+}
+
         .navbar-default .navbar-nav > li > a {
             font-size: 2.0em;
         }
@@ -61,6 +66,10 @@ h1, h2, h3 {
 
     .navbar-header {
         border: none;
+    }
+
+    .navbar-collapse {
+        border-radius: 15px;
     }
 }
 
