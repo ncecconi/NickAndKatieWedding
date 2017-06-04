@@ -1,7 +1,15 @@
 ﻿body {
     position: relative;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
     /*padding-top: 110px;*/
+}
+
+h1, h2, h3 {
+    font-family: 'Sacramento', cursive;
+}
+
+.glyphicon_large {
+    font-size: 2.5em;
 }
 
 .navbar {
@@ -9,7 +17,17 @@
     padding: 10px 15px;
     -webkit-transition: all 0.5s;
     transition: all 0.5s;
+    background: rgba(255, 255, 255, 0.3);
 }
+
+.navbar-default {
+    border: none;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: white;
+}
+
 
 @media (max-width: 500px) {
     .navbar-header {
@@ -25,14 +43,23 @@
     }
 
     .navbar-default {
-        background-color: transparent;
-        background: transparent;
+        background: none;
         border: none;
     }
-    .dropdown-toggle{
+
+        .navbar-default .navbar-nav > li > a {
+            font-size: 2.0em;
+        }
+
+    .dropdown-toggle {
         border: none;
     }
-    .navbar-header{
+
+    .navbar-default .navbar-nav .open .dropdown-menu>li>a{
+        color: white;
+    }
+
+    .navbar-header {
         border: none;
     }
 }
@@ -107,8 +134,7 @@
 }
 
     .activity-element img {
-        width: 150px;
-        height: 150px;
+        width: 45%;
     }
 
 .contact-us {
@@ -116,9 +142,9 @@
     text-align: center;
 }
 
-.full-screen{
+.full-screen {
     background-size: cover;
-    background-position: center;
+    background-position: center top;
     background-repeat: no-repeat;
 }
 
@@ -128,6 +154,11 @@ footer {
     padding: 20px;
     text-align: center;
 }
+
+footer img {
+        width: 50px;
+        height: 50px;
+    }
 
 aside {
     background-color: #f7f7f7;

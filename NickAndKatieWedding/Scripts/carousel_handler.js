@@ -1,6 +1,18 @@
 ﻿
-var $item = $('.carousel .item');
+//var $item = $('.carousel .item');
 var $wHeight = $(window).height();
+
+//new code
+var $wWidth = $(window).width();
+if ($wWidth <= 768) {
+    var $item = $('#carousel_sm .item');
+} else {
+    var $item = $('#carousel .item');
+}
+
+
+// end new code
+
 $item.eq(0).addClass('active');
 $item.height($wHeight);
 $item.addClass('full-screen');
