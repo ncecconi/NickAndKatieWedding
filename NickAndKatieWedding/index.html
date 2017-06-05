@@ -6,12 +6,13 @@
     <link href="https://fonts.googleapis.com/css?family=Raleway|Sacramento" rel="stylesheet">
     <script type="text/javascript" src="Scripts/jquery-1.9.1.min.js"></script>
     <script type="text/javascript" src="Scripts/bootstrap.min.js"></script>
+    <script type="text/javascript" src="Scripts/angular.min.js"></script>
     <link href="Content/font-awesome.min.css" rel="stylesheet" />
     <link href="Content/bootstrap.min.css" rel="stylesheet" />
     <link href="Content/app.css" rel="stylesheet" />
 
 </head>
-<body>
+<body ng-app>
     <header id="top">
         <nav class="navbar navbar-default navbar-fixed-top cbp-af-header"
              role="navigation">
@@ -121,37 +122,26 @@
         </section>
 
         <section id="details" class="row text-banner">
-
-            <h1>Schedule of Events</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-
+            <div ng-include="'/pages/schedule.html'"></div>
         </section>
 
         <section class="row hidden-xs">
-            <div class="fill-screen stellar-bg" style="background-image: url(/images/NK6.jpg)" data-stellar-background-ratio="0.3">
+            <div class="fill-screen stellar-bg" style="background-image: url(/images/NK8.jpg)" data-stellar-background-ratio="0.3">
             </div>
         </section>
 
         <section id="story" class="row text-banner">
-
-            <h1>Our Story</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-
+            <div ng-include="'/pages/story.html'"></div>
         </section>
 
         <section class="row hidden-xs">
-            <div class="fill-screen stellar-bg" style="background-image: url(/images/NK4.jpg)" data-stellar-background-ratio="0.6">
+            <div class="fill-screen stellar-bg" style="background-image: url(/images/NK10.png)" data-stellar-background-ratio="0.3">
             </div>
         </section>
 
         <section id="party" class="row text-banner">
-            <h1>Wedding Party</h1>
-            <h3>Bride Tribe</h3>
-            <h3>Groom Troop</h3>
-            <p>Lorem ipsum dolor sit amet</p>
-            <p>Lorem ipsum dolor sit amet</p>
-            <p>Lorem ipsum dolor sit amet</p>
-        </section>
+            <div ng-include="'/pages/weddingparty.html'"></div>
+              </section>
 
         <section class="row hidden-xs">
             <div class="fill-screen stellar-bg" style="background-image: url(/images/NK7.jpg)" data-stellar-background-ratio="0.4">
@@ -159,11 +149,8 @@
         </section>
 
         <section id="lodging" class="row text-banner">
-
-            <h1>Stay</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-
-        </section>
+            <div ng-include="'/pages/hotels.html'"></div>
+               </section>
 
         <section class="row hidden-xs">
             <div class="fill-screen stellar-bg" style="background-image: url(/images/NK2.jpg)" data-stellar-background-ratio="0.2">
@@ -171,11 +158,7 @@
         </section>
 
         <section id="faq" class="row text-banner">
-            <h1>Tidbits</h1>
-            <h3>Q & A</h3>
-            <p>Lorem ipsum dolor sit amet</p>
-            <p>Lorem ipsum dolor sit amet</p>
-            <p>Lorem ipsum dolor sit amet</p>
+            <div ng-include="'/pages/faq.html'"></div>
         </section>
 
         <section class="row hidden-xs">
@@ -186,19 +169,7 @@
 
 
         <section id="registry" class="row activity-section text-banner">
-            <h1>Registry </h1>
-            <div class="activity-element col-md-4 wow fadeInLeft">
-                <img src="/images/Crate and Barrel Logo.png" />
-               
-            </div>
-            <div class="activity-element col-md-4 wow fadeInLeft">
-                <img src="/images/Sur-la-table.png" />
-              
-            </div>
-            <div class="activity-element col-md-4 wow fadeInLeft">
-                <img src="/images/BBB.png" />
-               
-            </div>
+            <div ng-include="'/pages/registry.html'"></div>
         </section>
 
         <section class="row hidden-xs">
