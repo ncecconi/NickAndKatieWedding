@@ -28,8 +28,13 @@ h1, h2, h3 {
 
 .navbar-default .navbar-nav > li > a {
     color: white;
-    border-radius: 25px;
+    
 
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover  {
+    background: none;
+    color: forestgreen;
 }
 
 
@@ -76,6 +81,20 @@ h1, h2, h3 {
     }
 }
 
+.text-background{
+        background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' version='1.1'><text x='300' y='300' fill='white' font-size='1.0em'>#nickandkatiegetmerry</text></svg>");
+        background-size: cover;
+        margin: 0 auto;
+       font-family: 'Raleway', sans-serif;
+        /*background-position: center;*/
+        /*background-repeat: no-repeat;*/
+
+}
+.text-background-fill{
+    background-color: lightgreen;
+    max-height: 200px;
+}
+
 
 .cbp-af-header-shrink {
     padding-top: 1px;
@@ -84,8 +103,15 @@ h1, h2, h3 {
 }
 
 .fill-screen {
+     -webkit-background-size: cover;
+    -moz-background-size: cover;    
+    -o-background-size: cover;
     background-size: cover;
-    background-position: center top;
+    background-position: center;
+    background-attachment: fixed;
+    /*max-height: 250px;*/
+   
+   
 }
 
 .title-row {

@@ -19,6 +19,11 @@ $(function () {
     });
 
     // parallax scrolling with stellar.js
+    $.stellar({
+        horizontalScrolling: false,
+        responsive: true
+    });
+
     $(window).stellar();
 
 
