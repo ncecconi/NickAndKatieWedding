@@ -32,7 +32,7 @@ h1, h2, h3 {
 
 }
 
-.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover  {
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus  {
     background: none;
     color: forestgreen;
 }
@@ -109,7 +109,7 @@ h1, h2, h3 {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    /*max-height: 250px;*/
+    max-height: 350px;
    
    
 }
@@ -163,22 +163,23 @@ h1, h2, h3 {
         font-size: 18px;
     }
 
-.activity-section {
+.registry-section {
     margin: 50px;
 }
 
-.activity-element {
+.registry-element {
     text-align: center;
 }
 
-    .activity-element img {
+    .registry-element img {
         width: 45%;
     }
 
-.contact-us {
-    margin: 50px;
-    text-align: center;
+#party img {
+    width: 6.0em;
+    height: 6.0em;
 }
+
 
 .full-screen {
     background-size: cover;
@@ -189,7 +190,7 @@ h1, h2, h3 {
 footer {
     background-color: #333;
     color: #ddd;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
 }
 
