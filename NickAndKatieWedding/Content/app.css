@@ -9,8 +9,60 @@ h1, h2, h3 {
     font-family: 'Sacramento', cursive;
 }
 
+a:link {
+    text-decoration: none;
+}
+
+.btn {
+    text-align: left!important;
+}
+
+.btn-default{
+    color: darkgreen;
+    background-color: white;
+    border-color: darkgreen;
+}
+
+.btn-default:hover{
+    background-color: darkgreen;
+    color: white;
+}
+
+p.main{
+    text-align:justify;
+}
+
+.burgundy{
+    background-color: rgba(106, 9, 29, 1.0);
+}
+
+.gold {
+    background-color: rgba(103, 88, 57, 1.0);
+}
+
+
+hr { 
+  border: 0; 
+  height: 1px; 
+  background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0); 
+}
+
 .glyphicon_large {
     font-size: 2.5em;
+}
+
+.overlay{
+    color: #fff;
+    position: absolute;
+    z-index:12;
+    top:85%;
+    left:0;
+    width: 100%;
+    text-align: center;
+
 }
 
 .navbar {
@@ -34,13 +86,36 @@ h1, h2, h3 {
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus  {
     background: none;
-    color: forestgreen;
+    color: white;
+}
+
+#title{
+    color: white;
+    font-size: 0.5em;
+
+}
+
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
 }
 
 
-@media (max-width: 500px) {
+
+@media (max-width: 2000px) {
     .navbar-header {
         position: relative;
+        float: none;
+    }
+
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+
+    .navbar-toggle{
+        display: block;
     }
 
     .navbar img {
@@ -57,11 +132,30 @@ h1, h2, h3 {
     }
 
     .navbar-collapse {
+        border-top: 0;
     background: rgba(105, 105, 105, 0.7);
 }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+    }
+    .navbar-nav>li{
+        float: none;
+    }
 
         .navbar-default .navbar-nav > li > a {
             font-size: 1.5em;
+            float: none;
+        }
+        .collapse.in{
+            display: block!important;
         }
 
     .dropdown-toggle {
@@ -72,13 +166,7 @@ h1, h2, h3 {
         color: white;
     }
 
-    .navbar-header {
-        border: none;
-    }
-
-    .navbar-collapse {
-        border-radius: 15px;
-    }
+    
 }
 
 .text-background{
@@ -100,6 +188,7 @@ h1, h2, h3 {
     padding-top: 1px;
     padding-bottom: 1px;
     opacity: 0.9;
+    background-color:  rgba(106, 9, 29, 0.7);
 }
 
 .fill-screen {
@@ -156,7 +245,8 @@ h1, h2, h3 {
 }
 
     .text-banner h1 {
-        font-size: 44px;
+        font-size: 60px;
+        color:  darkgreen;
     }
 
     .text-banner p {
@@ -178,7 +268,50 @@ h1, h2, h3 {
 #party img {
     width: 6.0em;
     height: 6.0em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 2px  rgba(103, 88, 57, 1.0);
+
+   
 }
+
+#party img:hover{
+     filter: blur(1px);
+     box-shadow: 5px 5px 2px grey;
+}
+
+.grow{
+     transition: all .2s ease-in-out;
+}
+.grow:hover{
+    transform: scale(1.1);  
+}
+/*.blur:hover{
+    filter: blur(1px);
+}*/
+
+#party p {
+    font-size: 0.5em;
+}
+
+.party-section{
+    max-width: 60%;
+    display: block;
+     margin-left: auto;
+    margin-right: auto;
+}
+
+
+#hotel p, h3 {
+    text-align: left;
+}
+
+
+#faq p {
+    text-align: justify;
+}
+
 
 
 .full-screen {
@@ -365,4 +498,150 @@ article {
         display: table-cell;
         float: none;
     }
+}
+
+
+/* USAGE
+<div class="row">
+  <div class="row-height">
+    <div class="col-xs-2 col-xs-height col-xs-middle">
+      <div class="inside"></div>
+    </div>
+    <div class="col-xs-4 col-lg-5 col-xs-height col-xs-middle">
+      <div class="inside"></div>
+    </div>
+  </div>
+</div>
+*/
+
+/* content styles */
+
+.inside {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.inside-full-height {
+  /*
+  // if you want to give content full height give him height: 100%;
+  // with content full height you can't apply margins to the content
+  // content full height does not work in ie http://stackoverflow.com/questions/27384433/ie-display-table-cell-child-ignores-height-100
+  */
+  height: 100%;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* columns of same height styles */
+
+.row-height {
+  display: table;
+  table-layout: fixed;
+  height: 100%;
+  width: 100%;
+}
+.col-height {
+  display: table-cell;
+  float: none;
+  height: 100%;
+}
+.col-top {
+  vertical-align: top;
+}
+.col-middle {
+  vertical-align: middle;
+}
+.col-bottom {
+  vertical-align: bottom;
+}
+
+@media (min-width: 480px) {
+  .row-xs-height {
+    display: table;
+    table-layout: fixed;
+    height: 100%;
+    width: 100%;
+  }
+  .col-xs-height {
+    display: table-cell;
+    float: none;
+    height: 100%;
+  }
+  .col-xs-top {
+    vertical-align: top;
+  }
+  .col-xs-middle {
+    vertical-align: middle;
+  }
+  .col-xs-bottom {
+    vertical-align: bottom;
+  }
+}
+
+@media (min-width: 768px) {
+  .row-sm-height {
+    display: table;
+    table-layout: fixed;
+    height: 100%;
+    width: 100%;
+  }
+  .col-sm-height {
+    display: table-cell;
+    float: none;
+    height: 100%;
+  }
+  .col-sm-top {
+    vertical-align: top;
+  }
+  .col-sm-middle {
+    vertical-align: middle;
+  }
+  .col-sm-bottom {
+    vertical-align: bottom;
+  }
+}
+
+@media (min-width: 992px) {
+  .row-md-height {
+    display: table;
+    table-layout: fixed;
+    height: 100%;
+    width: 100%;
+  }
+  .col-md-height {
+    display: table-cell;
+    float: none;
+    height: 100%;
+  }
+  .col-md-top {
+    vertical-align: top;
+  }
+  .col-md-middle {
+    vertical-align: middle;
+  }
+  .col-md-bottom {
+    vertical-align: bottom;
+  }
+}
+
+@media (min-width: 1200px) {
+  .row-lg-height {
+    display: table;
+    table-layout: fixed;
+    height: 100%;
+    width: 100%;
+  }
+  .col-lg-height {
+    display: table-cell;
+    float: none;
+    height: 100%;
+  }
+  .col-lg-top {
+    vertical-align: top;
+  }
+  .col-lg-middle {
+    vertical-align: middle;
+  }
+  .col-lg-bottom {
+    vertical-align: bottom;
+  }
 }

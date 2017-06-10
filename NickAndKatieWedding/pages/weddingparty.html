@@ -1,10 +1,75 @@
-﻿<h1>Wedding Party</h1>
-<p>Bride Tribe</p>
-<div>
-    <img class="img-rounded" src="/images/Griff.jpg" />
-    <p>Nicky Johnson ~ Maid of Honor</p>
-</div>
-<div>
-    <img class="img-rounded" src="/images/Griff.jpg" />
-    <p>Lauren Pexa ~ Bridesmaid</p>
+﻿
+
+
+<div class="row">
+    <div class="row-height">
+        <div class="col-xs-12 col-sm-5 col-sm-height col-md-middle">
+            <div class="inside inside-full-height">
+                <div class="content"><br /><h1>Party</h1></div>
+
+                <div class="bio">
+                    <span id="nicky" class="collapse main" ng-include="'/copy/nickybio.html'"></span> 
+                </div>
+                <div class="bio">
+                    <span id="lauren" class="collapse main" ng-include="'/copy/laurenbio.html'"></span>
+                </div>
+                <!--<p id="nicky" class="collapse main" ng-include="'/copy/nickybio.html'">
+                <p id="lauren" class="collapse main" ng-include="'/copy/laurenbio.html'"></p>-->
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-7 col-sm-height col-md-middle">
+            <div class="inside inside-full-height">
+                <div class="content">
+
+
+                    <div class="party-section">
+                        <div class="row">
+                            <div class="col-lg-3 col-sm-4 col-xs-12 grow">
+                                <img class="img-circle img-responsive blur" src="/images/Nicky.jpg" data-toggle="collapse" data-target="#nicky" />
+                                <p>Nicky Johnson ~ Maid of Honor</p>
+                                <p id="nicky" class="collapse main" ng-include="'/copy/nickybio.html'">
+                                </p>
+                            </div>
+                            <hr class="visible-xs" />
+                            <div class="col-lg-3 col-sm-4 col-xs-12 grow">
+                                <img class="img-circle img-responsive" src="/images/Griff.jpg" data-toggle="collapse" data-target="#lauren" />
+                                <p>Lauren Pexa ~ Bridesmaid</p>
+                                <p id="lauren" class="collapse main" ng-include="'/copy/laurenbio.html'"></p>
+                            </div>
+                            <hr class="visible-xs" />
+                            <div class="col-lg-3 col-sm-4 col-xs-12 grow">
+                                <img class="img-circle img-responsive" src="/images/Griff.jpg" data-toggle="collapse" data-target="#meggie" />
+                                <p>Meggie Martin ~ Bridesmaid</p>
+                                <p id="meggie" class="collapse main" ng-include="'/copy/meggiebio.html'"></p>
+                            </div>
+                            <hr class="visible-xs" />
+                        </div>
+
+                        <div class="row">
+                            <div class="col-lg-3 col-sm-4 col-xs-12 grow">
+                                <img class="img-circle img-responsive" src="/images/Griff.jpg" data-toggle="collapse" data-target="#mark" />
+                                <p>Mark Cecconi ~ Best Man</p>
+                                <p id="mark" class="collapse main" ng-include="'/copy/markbio.html'"></p>
+                            </div>
+                            <hr class="visible-xs" />
+                            <div class="col-lg-3 col-sm-4 col-xs-12 grow">
+                                <img class="img-circle img-responsive" src="/images/Griff.jpg" data-toggle="collapse" data-target="#doran" />
+                                <p>Doran Wetzel ~ Groomsman</p>
+                                <p id="doran" class="collapse main" ng-include="'/copy/doranbio.html'"></p>
+                            </div>
+                            <hr class="visible-xs" />
+                            <div class="col-lg-3 col-sm-4 col-xs-12 grow">
+                                <img class="img-circle img-responsive" src="/images/Griff.jpg" data-toggle="collapse" data-target="#ryan" />
+                                <p>Ryan Courtney ~ Groomsman</p>
+                                <p id="ryan" class="collapse main" ng-include="'/copy/ryanbio.html'"></p>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
