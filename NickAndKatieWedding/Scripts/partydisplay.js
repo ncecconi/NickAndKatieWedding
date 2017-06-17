@@ -1,13 +1,14 @@
-﻿$('.bio span').hide();
+﻿////$('.bio span').hide();
 
-$('.bio img').click(function (e) {
+//$('a').click(function (e) {
 
-    e.preventDefault();
-    // hide all span
-    var $this = $(this).parent().find('span');
-    $(".bio span").not($this).hide();
+//    e.preventDefault();
+//    $('div').eq($(this).index()).show();
+//    $('div').not($('div').eq($(this).index())).hide();
+//});
 
-    // here is what I want to do
-    $this.toggle();
 
+var $party = $('#party');
+$party.on('show', '.collapse', function () {
+    $party.find('.collapse.in').collapse('hide');
 });

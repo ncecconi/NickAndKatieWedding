@@ -102,9 +102,14 @@
     <Content Include="copy\meggiebio.html" />
     <Content Include="copy\nickybio.html" />
     <Content Include="copy\ryanbio.html" />
+    <Content Include="images\amazon.png" />
     <Content Include="images\BBB.png" />
     <Content Include="images\Crate and Barrel Logo.png" />
+    <Content Include="images\doran3.jpg" />
     <Content Include="images\Griff.jpg" />
+    <Content Include="images\IMG_1043.jpg" />
+    <Content Include="images\IMG_1044.jpg" />
+    <Content Include="images\mark1-2.jpg" />
     <Content Include="images\Nicky.jpg" />
     <Content Include="images\NK1.jpg" />
     <Content Include="images\NK10.png" />
@@ -125,12 +130,17 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="copy\bio_modals.html" />
     <Content Include="pages\ceremony.html" />
+    <Content Include="pages\church_map.html" />
     <Content Include="pages\faq.html" />
+    <Content Include="pages\grotto_map.html" />
     <Content Include="pages\hewing_map.html" />
     <Content Include="pages\hotels.html" />
     <Content Include="pages\reception.html" />
+    <Content Include="pages\reception_map.html" />
     <Content Include="pages\registry.html" />
+    <Content Include="pages\rehearsal.html" />
     <Content Include="pages\schedule.html" />
     <Content Include="pages\story.html" />
     <Content Include="pages\towneplace_map.html" />

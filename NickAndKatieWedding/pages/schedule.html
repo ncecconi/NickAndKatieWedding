@@ -1,7 +1,36 @@
 ﻿
 
-    <h1>Schedule of Events</h1>
+<div class="row">
+    <div class="row-height">
 
-    <div ng-include="'/pages/ceremony.html'"></div> 
-<hr />
-<div ng-include="'/pages/reception.html'"></div> 
+        <div class="col-xs-12 col-sm-7 col-sm-height col-md-middle hidden-sm hidden-md hidden-lg">
+            <div class="inside inside-full-height">
+                <div class="content">
+                    <div class="hidden-xs"><br /><br /></div>
+                    <h1>Schedule of Events</h1><br />
+                </div>
+            </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-sm-height col-md-middle">
+            <div class="inside inside-full-height">
+                <div class="content">
+
+                    <div id="schedule" class="row">
+                       
+                            <div id="rehearsal" ng-include="'/pages/rehearsal.html'"></div>
+                            <div id="ceremony" class="padding-bottom20px" ng-include="'/pages/ceremony.html'"></div>
+                            <div id="reception" ng-include="'/pages/reception.html'"></div>
+                        
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-sm-height col-md-middle hidden-xs">
+            <div class="inside inside-full-height">
+                <div class="content"><br /><h1>Schedule of Events</h1></div>
+            </div>
+        </div>
+    </div>
+</div>

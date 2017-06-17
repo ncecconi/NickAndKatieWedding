@@ -7,69 +7,184 @@
             <div class="inside inside-full-height">
                 <div class="content"><br /><h1>Party</h1></div>
 
-                <div class="bio">
-                    <span id="nicky" class="collapse main" ng-include="'/copy/nickybio.html'"></span> 
-                </div>
-                <div class="bio">
-                    <span id="lauren" class="collapse main" ng-include="'/copy/laurenbio.html'"></span>
-                </div>
+                <!--<div class="bio">
+            <span id="nicky" class="collapse main" ng-include="'/copy/nickybio.html'"></span>
+        </div>-->
+                
+
+                <!--<div class="bio">
+            <span id="lauren" class="collapse main" ng-include="'/copy/laurenbio.html'"></span>
+        </div>-->
                 <!--<p id="nicky" class="collapse main" ng-include="'/copy/nickybio.html'">
-                <p id="lauren" class="collapse main" ng-include="'/copy/laurenbio.html'"></p>-->
+        <p id="lauren" class="collapse main" ng-include="'/copy/laurenbio.html'"></p>-->
             </div>
-        </div>
-        <div class="col-xs-12 col-sm-7 col-sm-height col-md-middle">
-            <div class="inside inside-full-height">
-                <div class="content">
+                </div>
+                <div class="col-xs-12 col-sm-7 col-sm-height col-md-middle">
+                    <div class="inside inside-full-height">
+                        <div class="content">
 
 
-                    <div class="party-section">
-                        <div class="row">
-                            <div class="col-lg-3 col-sm-4 col-xs-12 grow">
-                                <img class="img-circle img-responsive blur" src="/images/Nicky.jpg" data-toggle="collapse" data-target="#nicky" />
-                                <p>Nicky Johnson ~ Maid of Honor</p>
-                                <p id="nicky" class="collapse main" ng-include="'/copy/nickybio.html'">
-                                </p>
-                            </div>
-                            <hr class="visible-xs" />
-                            <div class="col-lg-3 col-sm-4 col-xs-12 grow">
-                                <img class="img-circle img-responsive" src="/images/Griff.jpg" data-toggle="collapse" data-target="#lauren" />
-                                <p>Lauren Pexa ~ Bridesmaid</p>
-                                <p id="lauren" class="collapse main" ng-include="'/copy/laurenbio.html'"></p>
-                            </div>
-                            <hr class="visible-xs" />
-                            <div class="col-lg-3 col-sm-4 col-xs-12 grow">
-                                <img class="img-circle img-responsive" src="/images/Griff.jpg" data-toggle="collapse" data-target="#meggie" />
-                                <p>Meggie Martin ~ Bridesmaid</p>
-                                <p id="meggie" class="collapse main" ng-include="'/copy/meggiebio.html'"></p>
-                            </div>
-                            <hr class="visible-xs" />
-                        </div>
+                            <div class="party-section">
+                                <div class="row">
+                                    <div class="col-lg-3 col-sm-4 col-xs-12 grow">
+                                        <!--<a href="#"><img class="img-circle img-responsive blur" src="/images/Nicky.jpg" /></a>-->
+                                        <!--<img class="img-responsive blur" src="/images/Nicky.jpg" data-toggle="collapse" data-target="#nicky" />-->
+                                        <img class="img-responsive blur" src="/images/Nicky.jpg" data-toggle="modal" data-target="#nicky" />
+                                        <p>Nicky Johnson ~ Maid of Honor</p>
+                                        <!--<p id="nicky" class="collapse main" ng-include="'/copy/nickybio.html'"></p>-->
+                                    </div>
+                                    <hr class="visible-xs" />
+                                    <div class="col-lg-3 col-sm-4 col-xs-12 grow">
+                                        <!--<a href="#"><img class="img-circle img-responsive" src="/images/Griff.jpg" /></a>-->
+                                        <img class="img-responsive" src="/images/IMG_1043.jpg" data-toggle="modal" data-target="#lauren" />
+                                        <p>Lauren Pexa ~ Bridesmaid</p>
+                                        <!--<p id="lauren" class="collapse main" ng-include="'/copy/laurenbio.html'"></p>-->
+                                    </div>
+                                    <hr class="visible-xs" />
+                                    <div class="col-lg-3 col-sm-4 col-xs-12 grow">
+                                        <img class="img-responsive" src="/images/Griff.jpg" data-toggle="modal" data-target="#meggie" />
+                                        <p>Meggie Martin ~ Bridesmaid</p>
+                                        <!--<p id="meggie" class="collapse main" ng-include="'/copy/meggiebio.html'"></p>-->
+                                    </div>
+                                    <hr class="visible-xs" />
+                                </div>
 
-                        <div class="row">
-                            <div class="col-lg-3 col-sm-4 col-xs-12 grow">
-                                <img class="img-circle img-responsive" src="/images/Griff.jpg" data-toggle="collapse" data-target="#mark" />
-                                <p>Mark Cecconi ~ Best Man</p>
-                                <p id="mark" class="collapse main" ng-include="'/copy/markbio.html'"></p>
+                                <div class="row">
+                                    <div class="col-lg-3 col-sm-4 col-xs-12 grow">
+                                        <img class="img-responsive" src="/images/mark1-2.jpg" data-toggle="modal" data-target="#mark" />
+                                        <p>Mark Cecconi ~ Best Man</p>
+                                        <!--<p id="mark" class="collapse main" ng-include="'/copy/markbio.html'"></p>-->
+                                    </div>
+                                    <hr class="visible-xs" />
+                                    <div class="col-lg-3 col-sm-4 col-xs-12 grow">
+                                        <img class="img-responsive" src="/images/doran3.jpg" data-toggle="modal" data-target="#doran" />
+                                        <p>Doran Wetzel ~ Groomsman</p>
+                                        <!--<p id="doran" class="collapse main" ng-include="'/copy/doranbio.html'"></p>-->
+                                    </div>
+                                    <hr class="visible-xs" />
+                                    <div class="col-lg-3 col-sm-4 col-xs-12 grow">
+                                        <img class="img-responsive" src="/images/Griff.jpg" data-toggle="modal" data-target="#ryan" />
+                                        <p>Ryan Courtney ~ Groomsman</p>
+                                        <!--<p id="ryan" class="collapse main" ng-include="'/copy/ryanbio.html'"></p>-->
+                                    </div>
+                                </div>
                             </div>
-                            <hr class="visible-xs" />
-                            <div class="col-lg-3 col-sm-4 col-xs-12 grow">
-                                <img class="img-circle img-responsive" src="/images/Griff.jpg" data-toggle="collapse" data-target="#doran" />
-                                <p>Doran Wetzel ~ Groomsman</p>
-                                <p id="doran" class="collapse main" ng-include="'/copy/doranbio.html'"></p>
+
+
+                            <div id="nicky" class="modal fade" role="dialog">
+                                <div class="modal-dialog">
+                                    <div class="modal-dialog bio">
+                                        <div class="modal-content">
+                                            <div class="modal-header burgundy">
+                                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                                <h4 class="modal-title heading heading-white">Nicky Johnson</h4>
+                                            </div>
+                                            <div class="modal-body">
+                                                <span class="main" role="dialog" ng-include="'/copy/nickybio.html'"></span>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                            <hr class="visible-xs" />
-                            <div class="col-lg-3 col-sm-4 col-xs-12 grow">
-                                <img class="img-circle img-responsive" src="/images/Griff.jpg" data-toggle="collapse" data-target="#ryan" />
-                                <p>Ryan Courtney ~ Groomsman</p>
-                                <p id="ryan" class="collapse main" ng-include="'/copy/ryanbio.html'"></p>
+                            <div id="lauren" class="modal fade" role="dialog">
+                                <div class="modal-dialog">
+                                    <div class="modal-dialog bio">
+                                        <div class="modal-content">
+                                            <div class="modal-header burgundy">
+                                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                                <h4 class="modal-title heading heading-white">Lauren Pexa</h4>
+                                            </div>
+                                            <div class="modal-body">
+                                                <span class="main" role="dialog" ng-include="'/copy/laurenbio.html'"></span>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
+                            <div id="meggie" class="modal fade" role="dialog">
+                                <div class="modal-dialog">
+                                    <div class="modal-dialog bio">
+                                        <div class="modal-content">
+                                            <div class="modal-header burgundy">
+                                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                                <h4 class="modal-title heading heading-white">Meggie Martin</h4>
+                                            </div>
+                                            <div class="modal-body">
+                                                <span class="main" role="dialog" ng-include="'/copy/meggiebio.html'"></span>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="mark" class="modal fade" role="dialog">
+                                <div class="modal-dialog">
+                                    <div class="modal-dialog bio">
+                                        <div class="modal-content">
+                                            <div class="modal-header burgundy">
+                                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                                <h4 class="modal-title heading heading-white">Mark Cecconi</h4>
+                                            </div>
+                                            <div class="modal-body">
+                                                <span class="main" role="dialog" ng-include="'/copy/markbio.html'"></span>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="doran" class="modal fade" role="dialog">
+                                <div class="modal-dialog">
+                                    <div class="modal-dialog bio">
+                                        <div class="modal-content">
+                                            <div class="modal-header burgundy">
+                                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                                <h4 class="modal-title heading heading-white">Doran Wetzel</h4>
+                                            </div>
+                                            <div class="modal-body">
+                                                <span class="main" role="dialog" ng-include="'/copy/doranbio.html'"></span>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="ryan" class="modal fade" role="dialog">
+                                <div class="modal-dialog">
+                                    <div class="modal-dialog bio">
+                                        <div class="modal-content">
+                                            <div class="modal-header burgundy">
+                                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                                <h4 class="modal-title heading heading-white">Ryan Courtney</h4>
+                                            </div>
+                                            <div class="modal-body">
+                                                <span class="main" role="dialog" ng-include="'/copy/ryanbio.html'"></span>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                           
+
+
+
                         </div>
                     </div>
-
-
-
                 </div>
             </div>
-        </div>
-    </div>
 </div>
