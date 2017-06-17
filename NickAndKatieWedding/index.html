@@ -9,7 +9,9 @@
     <script type="text/javascript" src="Scripts/angular.min.js"></script>
     <link href="Content/font-awesome.min.css" rel="stylesheet" />
     <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="Content/animate.css" rel="stylesheet" />
     <link href="Content/app.css" rel="stylesheet" />
+   
 
 </head>
 <body ng-app>
@@ -18,7 +20,7 @@
              role="navigation">
             <div class="container-fluid">
                 <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="navbar-header navbar-left">
+                <div class="navbar-header navbar-left wow fadeInDown">
                     
                     <button type="button" class="navbar-toggle collapsed"
                             data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -95,7 +97,7 @@
                 </a>
             </div>
 
-            <div class="overlay"><h1>Dec. 2, 2017</h1></div>
+            <div class="overlay wow fadeInUp"><h1>Dec. 2, 2017</h1></div>
             <div id="carousel" class="carousel slide hidden-xs" data-ride="carousel">
                 <!--Display for any device larger than xs in landscape-->
                 <div class="carousel-inner hidden-xs" role="listbox">
@@ -142,7 +144,7 @@
         </section>
         <hr class="visible-xs" />-->
 
-        <section class="row text-banner">
+        <section class="row">
             <div id="party" ng-include="'/pages/weddingparty.html'"></div>
         </section>
 
@@ -206,6 +208,10 @@
     <script src="Scripts/jquery.easing.1.3.js"></script>
     <script src="Scripts/jquery.stellar.js"></script>
     <script src="Scripts/scrolling.js"></script>
+    <script src="Scripts/wow.min.js"></script>
+    <script>
+              new WOW().init();
+    </script>
 
 </body>
 </html>
