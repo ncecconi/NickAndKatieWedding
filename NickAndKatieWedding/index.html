@@ -59,10 +59,10 @@
 
         <section class="row title-row">
             <!-- <div class="fill-screen stellar-bg"
-               style="background-image: url(images/Image.png)"
-               data-stellar-background-ratio="0.2">
+           style="background-image: url(images/Image.png)"
+           data-stellar-background-ratio="0.2">
 
-              <!--<img class="img-responsive title-image" src="../../images/site-logo-white.png" alt="Rocky Mountain Outdoors Logo" />-->
+          <!--<img class="img-responsive title-image" src="../../images/site-logo-white.png" alt="Rocky Mountain Outdoors Logo" />-->
             <!--  <div class="down-button">
                 <a class="btn" href="#details">
                     <i class="fa fa-arrow-circle-down fa-4x"></i>
@@ -75,7 +75,7 @@
             <div id="carousel_sm" class="carousel slide hidden-sm hidden-md hidden-lg" data-ride="carousel">
 
                 <!--Display only for small devices in portrait-->
-                <div class="carousel-inner hidden-sm hidden-md hidden-lg" role="listbox">
+                <div class="carousel-inner hidden-md hidden-lg" role="listbox">
                     <div class="item">
                         <img src="images/std1-1.jpg" data-color="lightgreen" alt="">
                     </div>
@@ -100,8 +100,12 @@
                 </a>
             </div>
 
-            <div class="overlay wow fadeInUp"><h1>Dec. 2, 2017</h1></div>
-            <div id="carousel" class="carousel slide hidden-xs" data-ride="carousel">
+            <div class="overlay wow fadeInUp">
+                <h1>Dec. 2, 2017</h1>
+                <p class="heading" id="timer"></p>
+                
+            </div>
+            <div id="carousel" class="carousel slide hidden-xs visible-sm visible-md visible-lg" data-ride="carousel">
                 <!--Display for any device larger than xs in landscape-->
                 <div class="carousel-inner hidden-xs" role="listbox">
                     <div class="item">
@@ -212,6 +216,7 @@
     <script src="Scripts/jquery.stellar.js"></script>
     <script src="Scripts/scrolling.js"></script>
     <script src="Scripts/wow.min.js"></script>
+    <script src="Scripts/countdown_timer.js"></script>
     <script>
               new WOW().init();
     </script>

@@ -1,4 +1,8 @@
-﻿body {
+﻿html {
+    overflow-x: hidden;
+}
+
+body {
     position: relative;
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
@@ -58,8 +62,7 @@ hr {
     color: #fff;
     position: absolute;
     z-index: 12;
-    top: 85%;
-    left: 0;
+    top: 80%;
     width: 100%;
     text-align: center;
 }
