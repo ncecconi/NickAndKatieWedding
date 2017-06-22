@@ -125,6 +125,7 @@
     <Content Include="images\NK7.jpg" />
     <Content Include="images\NK8.jpg" />
     <Content Include="images\NK9.jpg" />
+    <Content Include="images\std1-1.jpg" />
     <Content Include="images\Sur-la-table.png" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
