@@ -44,6 +44,10 @@ p.main {
     background-color: rgba(103, 88, 57, 1.0);
 }
 
+.burgundy-opaque{
+    background-color: rgba(106, 9, 29, 0.4);
+}
+
 
 hr {
     border: 0;
