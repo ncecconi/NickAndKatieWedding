@@ -95,11 +95,15 @@ hr {
     margin-top: 15px;
 }
 
+.margin-all {
+    margin: 15px;
+}
+
 
 .content-container {
     position: relative;
     width: 400px;
-    height: 350px;
+    height: 250px;
 }
 .content-container div {
     display: none;
@@ -153,7 +157,7 @@ hr {
     color: white;
 }
 
-.venue-name {
+.bold {
     font-weight: bold;
 }
 
@@ -351,9 +355,25 @@ hr {
     height: 7.0em;
     display: inline-block;
     float:left;
+    /*padding-right: 10px;*/
     margin-right: 10px;
+    /*border-right: 1px solid lightgrey;*/
 
 }
+
+.font3em {
+    font-size: 3.0em;
+}
+
+.partyname{
+    font-size: 1.5em;
+}
+
+.goldfont{
+    color: rgba(103, 88, 57, 1.0);
+}
+
+
 
 .grow {
     transition: all .2s ease-in-out;
@@ -368,7 +388,8 @@ hr {
 #party p {
     font-size: 16px;
     text-align: justify;
-    padding: 10px;
+    padding-left: 10px;
+    padding-right: 5px;
 }
 
 .party-section {

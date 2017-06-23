@@ -1,6 +1,5 @@
-﻿
-$(document).ready(function () {
-    $('#' + $('default').data('rel')).fadeIn('slow');
+﻿$(window).on("load", function () {
+    $('#nicky').fadeIn('slow');
 });
 
     $(".link").click(function (e) {
