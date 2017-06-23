@@ -25,6 +25,7 @@ a:link {
     color: darkgreen;
     background-color: white;
     border-color: darkgreen;
+    margin-top: 5px;
 }
 
     .btn-default:hover {
@@ -171,6 +172,7 @@ hr {
 
 .description {
     font-size: 0.7em;
+    text-align: left justify;
 }
 
 

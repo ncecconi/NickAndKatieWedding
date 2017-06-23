@@ -20,10 +20,13 @@
                     <p>A: 525 N 2nd St, Minneapolis, MN 55401</p>
                     <p>P: 612-340-1000</p>
                     <p>$94 / night. Located in the up and coming North Loop neighborhood. Walking distance to shopping and trendy restaurants.</p>
-                    <a target="_blank" href="http://www.marriott.com/meeting-event-hotels/group-corporate-travel/groupCorp.mi?resLinkData=Dykstra%20Cecconi%20Wedding%5Emspts%60dcedcea%6094.00%60USD%60false%603%6012/1/17%6012/3/17%6011/1/17&app=resvlink&stop_mobi=yes&aff=MARUS&affname=305950&co=US&nt=PH">
-                        <p class="btn btn-sm btn-default">Our Block</p>
-                    </a>
-                    <p class="btn btn-sm btn-default" data-toggle="collapse" data-target="#towne">See Map</p>
+
+                    <div class="btn-group btn-group-lg" role="group" aria-label="...">
+                        <a class="btn btn-default" href="http://www.marriott.com/meeting-event-hotels/group-corporate-travel/groupCorp.mi?resLinkData=Dykstra%20Cecconi%20Wedding%5Emspts%60dcedcea%6094.00%60USD%60false%603%6012/1/17%6012/3/17%6011/1/17&app=resvlink&stop_mobi=yes&aff=MARUS&affname=305950&co=US&nt=PH" target="_blank">Our Block</a>
+                        <a href="tel:612-340-1000" class="btn btn-default visible-xs">Call</a>
+                        <button type="button" class="btn btn-default" data-toggle="collapse" data-target="#towne">See Map</button>
+                    </div>
+
                     <div id="towne" class="collapse main" ng-include="'pages/towneplace_map.html'"></div>
                     <hr />
                     <p><h3>Hewing Hotel</h3></p>
@@ -31,10 +34,11 @@
                     <p>P: 651-468-0400</p>
                     <p>There is no wedding block discount at this fun and trendy NE Mpls boutique hotel, but if you're looking for a chic place to lodge with the hip kids, this may be your place.</p>
                     <p>Rooms start at $207.</p>
-                    <a target="_blank" href="http://hewinghotel.com/">
-                        <p class="btn btn-sm btn-default">Visit Site</p>
-                    </a>
-                    <p class="btn btn-sm btn-default" data-toggle="collapse" data-target="#hewing">See Map</p>
+                    <div class="btn-group btn-group-lg" role="group" aria-label="...">
+                        <a class="btn btn-sm btn-default" target="_blank" href="http://hewinghotel.com/">Visit Site</a>
+                        <a href="tel:651-468-0400" class="btn btn-default visible-xs">Call</a>
+                        <button type="button" class="btn btn-sm btn-default" data-toggle="collapse" data-target="#hewing">See Map</button>
+                    </div>
                     <div id="hewing" class="collapse main" ng-include="'pages/hewing_map.html'"></div>
 
                 </div>
