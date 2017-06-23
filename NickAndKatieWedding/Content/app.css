@@ -48,6 +48,10 @@ p.main {
     background-color: rgba(106, 9, 29, 0.4);
 }
 
+.greyback {
+    background-color: #f9f7f7;
+}
+
 
 hr {
     border: 0;
@@ -69,6 +73,41 @@ hr {
     top: 80%;
     width: 100%;
     text-align: center;
+}
+
+.box-shadow {
+    box-shadow: 10px 10px 5px #888888;
+}
+
+.border {
+    border: 1px solid lightgrey
+}
+
+.border-right {
+    border-right: 1px solid lightgrey;
+}
+
+.margin-right {
+    margin-right: 15px;
+}
+
+.margin-top {
+    margin-top: 15px;
+}
+
+
+.content-container {
+    position: relative;
+    width: 400px;
+    height: 350px;
+}
+.content-container div {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
 }
 
 .navbar {
@@ -292,43 +331,53 @@ hr {
         width: 65%;
     }
 
-#party img {
-    width: 6.0em;
-    height: 6.0em;
+#thumbs img {
+    width: 3.0em;
+    height: 3.0em;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 35px;
     /*border: solid 2px rgba(103, 88, 57, 1.0);*/
 }
 
-    #party img:hover {
-        filter: blur(1px);
+    #thumbs img:hover {
+        filter: blur(0.4px);
         box-shadow: 5px 5px 2px grey;
     }
+
+#bio img {
+    width: 7.0em;
+    height: 7.0em;
+    display: inline-block;
+    float:left;
+    margin-right: 10px;
+
+}
 
 .grow {
     transition: all .2s ease-in-out;
 }
 
     .grow:hover {
-        transform: scale(1.1);
+        transform: scale(1.2);
+        z-index: 3;
     }
-/*.blur:hover{
-    filter: blur(1px);
-}*/
+
 
 #party p {
     font-size: 16px;
-    text-align: center;
+    text-align: justify;
+    padding: 10px;
 }
 
 .party-section {
-    max-width: 60%;
+    max-width: 90%;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding-right: 0px!important;
-    padding-left: 0px!important;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
 }
 
 
@@ -347,6 +396,11 @@ hr {
 
 .padding-bottom20px {
     padding-bottom: 20px;
+}
+
+.padding-none {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
 }
 
 .line {

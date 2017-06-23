@@ -146,12 +146,14 @@
     <Content Include="pages\story.html" />
     <Content Include="pages\towneplace_map.html" />
     <Content Include="pages\weddingparty.html" />
+    <Content Include="pages\weddingparty2.html" />
     <Content Include="Scripts\angular-mocks.js" />
     <Content Include="Scripts\angular-route.js" />
     <Content Include="Scripts\angular-route.min.js" />
     <Content Include="Scripts\angular.js" />
     <Content Include="Scripts\angular.min.js" />
     <Content Include="Scripts\carousel_handler.js" />
+    <Content Include="Scripts\content_display_handler.js" />
     <Content Include="Scripts\countdown_timer.js" />
     <Content Include="Scripts\jquery-1.9.1.min.map" />
     <Content Include="Scripts\angular.min.js.map" />
@@ -248,7 +250,6 @@
     <Content Include="Scripts\jquery.easing.1.3.js" />
     <Content Include="Scripts\jquery.stellar.js" />
     <Content Include="Scripts\jquery.stellar.min.js" />
-    <Content Include="Scripts\partydisplay.js" />
     <Content Include="Scripts\scrolling.js" />
     <Content Include="Scripts\wow.min.js" />
     <Content Include="Web.config" />
