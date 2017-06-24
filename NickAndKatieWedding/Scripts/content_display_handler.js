@@ -1,4 +1,4 @@
-﻿$(window).on("load", function () {
+﻿$(window).bind("load", function () {
     $('#nicky').fadeIn('slow');
 });
 
