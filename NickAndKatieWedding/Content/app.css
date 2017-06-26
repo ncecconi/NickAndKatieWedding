@@ -167,6 +167,10 @@ hr {
     color: white;
 }
 
+#overlay h1 {
+    margin-bottom: 0px!important;
+}
+
 .bold {
     font-weight: bold;
 }

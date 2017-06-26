@@ -103,6 +103,7 @@
     <Content Include="copy\nickybio.html" />
     <Content Include="copy\ryanbio.html" />
     <Content Include="images\amazon.png" />
+    <Content Include="images\aster.jpg" />
     <Content Include="images\BBB.png" />
     <Content Include="images\Crate and Barrel Logo.png" />
     <Content Include="images\doran3.jpg" />
@@ -111,6 +112,7 @@
     <Content Include="images\IMG_1044.jpg" />
     <Content Include="images\mark1-2.jpg" />
     <Content Include="images\Nicky.jpg" />
+    <Content Include="images\nicollet1.jpg" />
     <Content Include="images\NK1.jpg" />
     <Content Include="images\NK10.png" />
     <Content Include="images\NK11.png" />
