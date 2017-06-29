@@ -57,6 +57,18 @@ p.main {
     background-color: #f9f7f7;
 }
 
+.white {
+    color: white;
+}
+
+.mint {
+       color: rgba(162, 188, 189, 1.0);
+}
+
+.mint-opaque{
+    background-color: rgba(162, 188, 189, 0.7);
+}
+
 
 hr {
     border: 0;
@@ -473,14 +485,6 @@ hr {
 
 #reception p, h3 {
     text-align: justify;
-}
-
-.white {
-    color: white;
-}
-
-.mint {
-       color: rgba(162, 188, 189, 1.0);
 }
 
 
