@@ -73,7 +73,7 @@ a:link {
 }
 
     .btn-default:hover {
-        background-color: rgb(84,117,100);
+        background-color: rgba(162, 188, 189, 1.0);
         color: rgb(234,239,239);
     }
 
@@ -108,6 +108,9 @@ p.main {
 .mint {
        color: rgba(162, 188, 189, 1.0);
 }
+.mintback {
+      background-color: rgba(162, 188, 189, 1.0);
+}
 
 .mint-opaque{
     background-color: rgba(162, 188, 189, 0.7);
@@ -131,7 +134,7 @@ hr {
     color: #fff;
     position: absolute;
     z-index: 12;
-    top: 80%;
+    top: 75%;
     width: 100%;
     text-align: center;
 }
@@ -221,6 +224,7 @@ hr {
 
 .heading-white {
     color: snow;
+    font-family: 'Sacramento', cursive;
 }
 
 #overlay h1 {
@@ -473,6 +477,11 @@ hr {
     text-align: justify;
     padding-left: 10px;
     padding-right: 5px;
+    color: rgb(234,239,239);
+}
+
+#party h1, h2, h3 {
+   color: rgb(234,239,239);
 }
 
 .party-section {
@@ -492,6 +501,9 @@ hr {
 
 #faq p {
     text-align: justify;
+}
+#faq h1, h2, h3 {
+   color: rgb(234,239,239);
 }
 
 #schedule p, h4 {
@@ -541,8 +553,6 @@ hr {
 }
 
 footer {
-    background-color: #333;
-    color: #ddd;
     padding: 10px;
     text-align: center;
 }

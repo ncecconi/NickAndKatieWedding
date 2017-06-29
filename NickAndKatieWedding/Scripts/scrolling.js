@@ -13,7 +13,7 @@ $(function () {
     // smooth scrolling
     $('nav a, .down-button a').bind('click', function () {
         $('html, body').stop().animate({
-            scrollTop: $($(this).attr('href')).offset().top - 100
+            scrollTop: $($(this).attr('href')).offset().top - 0
         }, 1500, 'easeInOutExpo');
         event.preventDefault();
     });
