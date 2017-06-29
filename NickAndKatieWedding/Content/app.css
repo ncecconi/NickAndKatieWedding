@@ -350,7 +350,7 @@ hr {
     -o-background-size: cover;
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
+    background-attachment: scroll;
     max-height: 350px;
 }
 
@@ -381,7 +381,7 @@ hr {
     }
 
 .fixed-attachment {
-    background-attachment: fixed;
+    background-attachment: scroll;
 }
 
 @media (max-width: 1024px) {
