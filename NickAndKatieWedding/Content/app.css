@@ -1,4 +1,48 @@
-﻿html {
+﻿/*
+snowdrop color palette
+    brown: 422803,  rgb(66,40,3)
+    green: 547564, rgb(84,117,100)
+    ice: C3E2E2, rgb(195,226,226)
+    snow: EAEFEF, rgb(234,239,239)
+
+*/
+.brown {
+    color: rgb(66,40,3);
+}
+.brownback {
+    background-color: rgb(66,40,3);
+}
+
+.ivy {
+    color: rgb(84,117,100);
+}
+.ivyback {
+    background-color: rgb(84,117,100);
+}
+.ivy-opaque{
+     background-color: rgba(84,117,100, 0.7);
+}
+.ice{
+    color: rgb(195,226,226);
+}
+.iceback{
+    background-color:  rgb(195,226,226);
+}
+.ice-opaque{
+    background-color:  rgba(195,226,226, 0.7);
+}
+.snow{
+    color: rgb(234,239,239);
+}
+.snowback{
+    background-color: rgb(234,239,239);
+    background-size: cover;
+}
+
+
+
+
+html {
     overflow-x: hidden;
 }
 
@@ -22,15 +66,15 @@ a:link {
 }
 
 .btn-default {
-    color: darkgreen;
-    background-color: white;
-    border-color: darkgreen;
+    color: rgb(84,117,100);
+    background-color: rgb(234,239,239);
+    border-color: rgb(84,117,100);
     margin-top: 5px;
 }
 
     .btn-default:hover {
-        background-color: darkgreen;
-        color: white;
+        background-color: rgb(84,117,100);
+        color: rgb(234,239,239);
     }
 
 p.main {
@@ -145,12 +189,12 @@ hr {
 
 
     .navbar-default .navbar-nav > li > a {
-        color: white;
+        color: snow;
     }
 
     .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
         background: none;
-        color: white;
+        color: snow;
     }
 
 .icon-bar {
@@ -158,7 +202,7 @@ hr {
 }
 
 #title {
-    color: white;
+    color: snow;
     font-size: 0.5em;
 }
 
@@ -172,11 +216,11 @@ hr {
 .heading {
     font-family: 'Sacramento', cursive;
     font-size: 1.5em;
-    color: darkgreen;
+    color: rgb(84,117,100);
 }
 
 .heading-white {
-    color: white;
+    color: snow;
 }
 
 #overlay h1 {
@@ -270,7 +314,7 @@ hr {
     }
 
     .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-        color: white;
+        color: snow;
     }
 }
 
@@ -344,12 +388,13 @@ hr {
 
 .text-banner {
     text-align: center;
-    margin: 40px 20px;
+    padding: 40px 20px;
+    /*margin: 40px 20px;*/
 }
 
     .text-banner h1 {
         font-size: 60px;
-        color: darkgreen;
+        color: rgb(84,117,100);
     }
 
     .text-banner p {
@@ -357,7 +402,7 @@ hr {
     }
 
 .registry-section {
-    margin: 50px;
+    padding: 50px;
 }
 
 .registry-element {
