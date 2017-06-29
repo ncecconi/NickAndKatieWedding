@@ -475,13 +475,12 @@ hr {
     text-align: justify;
 }
 
-.fa-icon {
-    padding: 20px;
-    border-radius: 55px;
-    /*border: 4px solid rgba(106, 9, 29, 1.0);*/
-    /*color: rgba(48, 98, 37, 1.0);*/
+.white {
     color: white;
-    background-color: rgba(162, 188, 189, 1.0);
+}
+
+.mint {
+       color: rgba(162, 188, 189, 1.0);
 }
 
 
