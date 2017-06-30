@@ -430,7 +430,7 @@ hr {
 
     #thumbs img:hover {
         filter: blur(0.4px);
-        box-shadow: 5px 5px 2px grey;
+        box-shadow: 5px 2px 2px grey;
     }
 
 #bio img {
@@ -508,6 +508,11 @@ hr {
 
 #schedule p, h4 {
      text-align: justify;
+     color:rgb(84,117,100);
+}
+
+#schedule a {
+    color:  rgba(162, 188, 189, 1.0);
 }
 
 .padding-bottom20px {

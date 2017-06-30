@@ -127,6 +127,7 @@
     <Content Include="images\IMG_1043.jpg" />
     <Content Include="images\IMG_1044.jpg" />
     <Content Include="images\mark1-2.jpg" />
+    <Content Include="images\meggie.jpg" />
     <Content Include="images\Nicky.jpg" />
     <Content Include="images\nicollet1.jpg" />
     <Content Include="images\NK1.jpg" />
@@ -143,6 +144,7 @@
     <Content Include="images\NK7.jpg" />
     <Content Include="images\NK8.jpg" />
     <Content Include="images\NK9.jpg" />
+    <Content Include="images\ryan2.jpg" />
     <Content Include="images\std1-1.jpg" />
     <Content Include="images\Sur-la-table.png" />
     <Content Include="packages.config" />
