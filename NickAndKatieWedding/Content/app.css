@@ -211,6 +211,11 @@ hr {
     color: rgba(103, 88, 57, 1.0);
 }
 
+.cursive{
+   
+    font-family: 'Sacramento', cursive;
+}
+
 #title {
     color: snow;
     font-size: 0.5em;
@@ -333,6 +338,8 @@ hr {
     }
 }
 
+
+
 .text-background {
     background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' version='1.1'><text x='300' y='300' fill='white' font-size='1.0em'>#nickandkatiegetmerry</text></svg>");
     background-size: cover;
@@ -409,7 +416,8 @@ hr {
 
     .text-banner h1 {
         font-size: 60px;
-        color: rgb(84,117,100);
+        /*color: rgb(84,117,100);*/
+      color: rgba(162, 188, 189, 1.0);
     }
 
     .text-banner p {
