@@ -101,6 +101,7 @@
     <Content Include="copy\markbio.html" />
     <Content Include="copy\meggiebio.html" />
     <Content Include="copy\nickybio.html" />
+    <Content Include="copy\registry_copy.html" />
     <Content Include="copy\ryanbio.html" />
     <Content Include="images\0005.jpg" />
     <Content Include="images\0019.jpg" />
@@ -126,6 +127,7 @@
     <Content Include="images\Griff.jpg" />
     <Content Include="images\IMG_1043.jpg" />
     <Content Include="images\IMG_1044.jpg" />
+    <Content Include="images\macys.png" />
     <Content Include="images\mark1-2.jpg" />
     <Content Include="images\meggie.jpg" />
     <Content Include="images\Nicky.jpg" />
