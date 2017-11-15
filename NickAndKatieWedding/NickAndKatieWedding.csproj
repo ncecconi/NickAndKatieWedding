@@ -97,10 +97,13 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="copy\doranbio.html" />
+    <Content Include="copy\downtown.html" />
     <Content Include="copy\laurenbio.html" />
     <Content Include="copy\markbio.html" />
     <Content Include="copy\meggiebio.html" />
     <Content Include="copy\nickybio.html" />
+    <Content Include="copy\nicolletRestaurants.html" />
+    <Content Include="copy\northLoop.html" />
     <Content Include="copy\registry_copy.html" />
     <Content Include="copy\ryanbio.html" />
     <Content Include="copy\transportation_deets.html" />
@@ -164,16 +167,19 @@
     <Content Include="pages\hewing_map.html" />
     <Content Include="pages\hotels.html" />
     <Content Include="pages\breakfast.html" />
+    <Content Include="pages\localInfo.html" />
     <Content Include="pages\reception.html" />
     <Content Include="pages\reception_map.html" />
     <Content Include="pages\reception_mapModal.html" />
     <Content Include="pages\registry.html" />
     <Content Include="pages\rehearsal.html" />
     <Content Include="pages\rehearsal_mapModal.html" />
+    <Content Include="pages\restaurantKey.html" />
     <Content Include="pages\schedule.html" />
     <Content Include="pages\story.html" />
     <Content Include="pages\towneplace_map.html" />
     <Content Include="pages\transportation.html" />
+    <Content Include="copy\twinsStadium.html" />
     <Content Include="pages\weddingparty.html" />
     <Content Include="pages\weddingparty2.html" />
     <Content Include="Scripts\angular-mocks.js" />

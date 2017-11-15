@@ -77,6 +77,11 @@ a:link {
         color: rgb(234,239,239);
     }
 
+ul{
+    text-align: left;
+    padding-left: 10px;
+}
+
 p.main {
     text-align: justify;
 }
@@ -126,6 +131,11 @@ p.main {
 }
 
 #buses{
+    text-align: left;
+}
+
+.key {
+    font-size: 0.5em;
     text-align: left;
 }
 
