@@ -20,8 +20,8 @@
             <div class="col-xs-12 col-sm-12">
                 <div class="col-xs-6 col-sm-4">
                     <div id="grotto" class="collapse main" ng-include="'pages/grotto_map.html'"></div>
-                    <div class="main"><img class="img-responsive img-rounded goldborder" src="images/aster.jpg" data-toggle="collapse" data-target="#grotto"/></div>
-                    
+                    <div class="main"><img class="img-responsive img-rounded goldborder" src="images/aster.jpg" data-toggle="collapse" data-target="#grotto" /></div>
+
                 </div>
                 <div class="col-xs-6 col-sm-8 details">
 
@@ -29,7 +29,16 @@
                     <div class="description"><a href="http://events.astercafe.com/">events.astercafe.com</a></div>
                     <div>117 SE Main St, Minneapolis, MN 55414</div>
                     <div class="description">Part of the original Pracna building, this beautiful space has hand-laid brick and beam floors, original stone walls, and a fireplace.</div>
-                    <p class="btn btn-xs btn-default" data-toggle="collapse" data-target="#grotto">See Map</p>                  
+                    <!--<p class="btn btn-xs btn-default" data-toggle="collapse" data-target="#grotto">
+                        <i class="fa fa-map-o" aria-hidden="true">&nbsp;</i>
+                        See Map
+
+                    </p>-->
+                    <p class="btn btn-xs btn-default" data-toggle="modal" data-target="#rehearsalMapModal">
+                        <i class="fa fa-map-o" aria-hidden="true">&nbsp;</i>
+                        See Map
+
+                    </p>
                 </div>
             </div>
         </div>

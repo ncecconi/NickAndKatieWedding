@@ -116,6 +116,19 @@ p.main {
     background-color: rgba(162, 188, 189, 0.7);
 }
 
+.panel {
+    padding: 0px;
+    margin-top: 10px;
+
+}
+.panel-heading{
+    text-align: left;
+}
+
+#buses{
+    text-align: left;
+}
+
 
 hr {
     border: 0;
@@ -336,6 +349,10 @@ hr {
     .navbar-default .navbar-nav .open .dropdown-menu > li > a {
         color: snow;
     }
+
+    .navbar-fixed-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse {
+    max-height: 400px;
+}
 }
 
 

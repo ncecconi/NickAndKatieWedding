@@ -103,6 +103,7 @@
     <Content Include="copy\nickybio.html" />
     <Content Include="copy\registry_copy.html" />
     <Content Include="copy\ryanbio.html" />
+    <Content Include="copy\transportation_deets.html" />
     <Content Include="images\0005.jpg" />
     <Content Include="images\0019.jpg" />
     <Content Include="images\0024.jpg" />
@@ -156,18 +157,23 @@
     </Content>
     <Content Include="copy\bio_modals.html" />
     <Content Include="pages\ceremony.html" />
+    <Content Include="pages\ceremony_mapModal.html" />
     <Content Include="pages\church_map.html" />
     <Content Include="pages\faq.html" />
     <Content Include="pages\grotto_map.html" />
     <Content Include="pages\hewing_map.html" />
     <Content Include="pages\hotels.html" />
+    <Content Include="pages\breakfast.html" />
     <Content Include="pages\reception.html" />
     <Content Include="pages\reception_map.html" />
+    <Content Include="pages\reception_mapModal.html" />
     <Content Include="pages\registry.html" />
     <Content Include="pages\rehearsal.html" />
+    <Content Include="pages\rehearsal_mapModal.html" />
     <Content Include="pages\schedule.html" />
     <Content Include="pages\story.html" />
     <Content Include="pages\towneplace_map.html" />
+    <Content Include="pages\transportation.html" />
     <Content Include="pages\weddingparty.html" />
     <Content Include="pages\weddingparty2.html" />
     <Content Include="Scripts\angular-mocks.js" />
