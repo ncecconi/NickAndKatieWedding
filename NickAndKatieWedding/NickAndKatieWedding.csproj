@@ -178,6 +178,7 @@
     <Content Include="pages\schedule.html" />
     <Content Include="pages\story.html" />
     <Content Include="pages\towneplace_map.html" />
+    <Content Include="pages\towneplace_mapModal.html" />
     <Content Include="pages\transportation.html" />
     <Content Include="copy\twinsStadium.html" />
     <Content Include="pages\weddingparty.html" />
